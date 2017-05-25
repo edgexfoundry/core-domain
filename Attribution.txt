@@ -1,0 +1,13 @@
+The following open source projects are referenced by Core Domain:
+
+Junit (EPL 1.0) - http://junit.org/junit4/
+http://junit.org/junit4/license.html
+
+Spring Data MongoDB (Apache 2.0) - http://projects.spring.io/spring-data-mongodb/
+No License page available
+
+Spring Boot (Apache 2.0) - https://projects.spring.io/spring-boot/
+https://github.com/spring-projects/spring-boot/blob/master/LICENSE.txt
+
+Resteasy, JBoss (Apache 2.0) - http://resteasy.jboss.org/
+https://github.com/resteasy/Resteasy/blob/master/License.html
