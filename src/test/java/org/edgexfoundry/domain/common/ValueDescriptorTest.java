@@ -41,7 +41,8 @@ public class ValueDescriptorTest {
   static final String TEST_DESCRIPTION = "test description";
 
   private List<ValueDescriptor> descriptors;
-  private ValueDescriptor valDesc1, valDesc2;
+  private ValueDescriptor valDesc1;
+  private ValueDescriptor valDesc2;
 
   @Before
   public void setup() {

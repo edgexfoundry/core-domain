@@ -20,11 +20,10 @@ package org.edgexfoundry.domain.meta;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.codehaus.jackson.annotate.JsonIgnore;
-import org.springframework.data.mongodb.core.index.Indexed;
-import org.springframework.data.mongodb.core.mapping.Document;
-
 import org.edgexfoundry.domain.common.BaseObject;
 import org.edgexfoundry.domain.common.HTTPMethod;
+import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 @SuppressWarnings("serial")

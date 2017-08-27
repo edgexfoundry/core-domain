@@ -58,6 +58,20 @@ public class ValueDescriptor extends DescribedObject {
 
   public ValueDescriptor() {}
 
+
+  /**
+   * Create a new Value Descriptor with all parameters.
+   * 
+   * @param name unique name of the value descriptor
+   * @param min minimum value allowed
+   * @param max maximum value allowed
+   * @param type data type which is corresponding IoTType
+   * @param uomLabel unit of measure label such as degrees
+   * @param defaultValue value when no reading is provided
+   * @param formatting printf formatting string for value and uom
+   * @param labels search labels
+   * @param description information about the value descriptor
+   */
   public ValueDescriptor(String name, Object min, Object max, IoTType type, String uomLabel,
       Object defaultValue, String formatting, String[] labels, String description) {
     super();
@@ -72,6 +86,12 @@ public class ValueDescriptor extends DescribedObject {
     this.setDescription(description);
   }
 
+  /**
+   * Retrieve the list of the value descriptor names from a list of value descriptors.
+   * 
+   * @param valueDescriptors collection of value descriptor objects.
+   * @return collection of value descriptor name strings.
+   */
   public static List<String> getNames(List<ValueDescriptor> valueDescriptors) {
     List<String> names = new ArrayList<>();
     for (ValueDescriptor valueDescriptor : valueDescriptors) {

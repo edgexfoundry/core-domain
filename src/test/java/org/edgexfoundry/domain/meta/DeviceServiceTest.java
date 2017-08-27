@@ -26,8 +26,8 @@ import org.junit.Test;
 
 public class DeviceServiceTest {
 
-
-  DeviceService s, s2;
+  DeviceService s;
+  DeviceService s2;
   Addressable a;
 
   @Before

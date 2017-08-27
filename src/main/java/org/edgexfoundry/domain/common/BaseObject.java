@@ -21,7 +21,6 @@ package org.edgexfoundry.domain.common;
 import java.io.Serializable;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
-
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -131,11 +130,11 @@ public abstract class BaseObject implements Serializable, Comparable<BaseObject>
     } else {
       if (thisArray.length != otherArray.length)
         return false;
-      int i = 0;
+      int strCnt = 0;
       for (String x : thisArray) {
-        if (!x.equals(otherArray[i]))
+        if (!x.equals(otherArray[strCnt]))
           return false;
-        i++;
+        strCnt++;
       }
     }
     return true;

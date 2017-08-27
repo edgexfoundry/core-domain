@@ -24,11 +24,10 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.edgexfoundry.domain.common.DescribedObject;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import org.edgexfoundry.domain.common.DescribedObject;
 
 @Document
 @SuppressWarnings("serial")

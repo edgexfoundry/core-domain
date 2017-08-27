@@ -31,7 +31,8 @@ public class DeviceReportTest {
   private static final String TEST_EVENT = "Test event";
   private static final String[] TEST_EXPECTED = {"vD1", "vD2"};
 
-  DeviceReport d, d2;
+  DeviceReport d;
+  DeviceReport d2;
 
   @Before
   public void setup() {

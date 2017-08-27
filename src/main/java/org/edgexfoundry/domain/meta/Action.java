@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("serial")
-public abstract class Action implements Serializable{
+public abstract class Action implements Serializable {
 
   // path used by service for action on a device or sensor
   private String path;
@@ -48,12 +48,22 @@ public abstract class Action implements Serializable{
     this.responses = responses;
   }
 
+  /**
+   * Add a response to the responses and initialize the list if null.
+   * 
+   * @param response Response object to add.
+   */
   public void addResponse(Response response) {
     if (responses == null)
       responses = new ArrayList<>();
     responses.add(response);
   }
 
+  /**
+   * Remove the Response from the responses list
+   * 
+   * @param response Response object to remove
+   */
   public void removeResponse(Response response) {
     if (responses == null)
       responses = new ArrayList<>();
@@ -76,7 +86,7 @@ public abstract class Action implements Serializable{
    * Convenience method to return the names of all associated value descriptor names. For Get this
    * is just expected value names. For Put, this is expected value names plus parameter names.
    * 
-   * @return
+   * @return list of associated value descriptors 
    */
   public List<String> allAssociatedValueDescriptors() {
     return allExpectedValues();

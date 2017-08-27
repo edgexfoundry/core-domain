@@ -36,7 +36,8 @@ public class ActionTest {
   private static final String TEST_CODE2 = "404";
   private static final String TEST_DECRIPTION2 = "not found";
 
-  private Response r1, r2;
+  private Response r1;
+  private Response r2;
   private Action a;
 
   @Before

@@ -34,7 +34,8 @@ public class ReadingTest {
   private static final String TEST_NAME = "Temperature";
   private static final Long TEST_PUSHED = 1234L;
 
-  private Reading r, r2;
+  private Reading r;
+  private Reading r2;
 
   @Before
   public void setUp() {
