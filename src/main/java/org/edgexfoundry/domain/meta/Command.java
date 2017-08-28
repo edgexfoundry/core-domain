@@ -21,9 +21,9 @@ package org.edgexfoundry.domain.meta;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.springframework.data.mongodb.core.mapping.Document;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.edgexfoundry.domain.common.BaseObject;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 @SuppressWarnings("serial")

@@ -36,7 +36,8 @@ public class ScheduleEventTest {
   static final int TEST_PORT = 48089;
   static final String TEST_PATH = "/api/v1/device";
 
-  private ScheduleEvent s, s2;
+  private ScheduleEvent s;
+  private ScheduleEvent s2;
   private Addressable a;
 
   @Before

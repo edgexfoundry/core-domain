@@ -19,7 +19,7 @@
 package org.edgexfoundry.domain.common;
 
 /**
- * Value type for IoT Reading data S=String I=Integer F=Floating Point B=Boolean J=JSON Object
+ * Value type for IoT Reading data S=String I=Integer F=Floating Point B=Boolean J=JSON Object.
  * 
  */
 public enum IoTType {

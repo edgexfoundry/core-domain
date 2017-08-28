@@ -28,13 +28,12 @@ import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.edgexfoundry.domain.meta.ProvisionWatcher;
-
 public class ProvisionWatcherTest {
 
   private static final String TEST_NAME = "test pw";
 
-  private ProvisionWatcher w, w2;
+  private ProvisionWatcher w;
+  private ProvisionWatcher w2;
 
   @Before
   public void setup() {

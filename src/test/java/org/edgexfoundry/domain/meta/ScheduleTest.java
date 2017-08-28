@@ -33,7 +33,8 @@ public class ScheduleTest {
   private static final String TEST_CRON = "0 0 12 * * ?";
   private static final boolean TEST_RUN_ONCE = false;
 
-  private Schedule s, s2;
+  private Schedule s;
+  private Schedule s2;
 
   @Before
   public void setup() {

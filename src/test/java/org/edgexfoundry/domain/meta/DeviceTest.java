@@ -38,7 +38,8 @@ public class DeviceTest {
   static final String[] TEST_LABELS = {"MODBUS", "TEMP"};
   static final String TEST_LOCATION = "{40lat;45long}";
 
-  private Device d, d2;
+  private Device d;
+  private Device d2;
 
   @Before
   public void setup() {

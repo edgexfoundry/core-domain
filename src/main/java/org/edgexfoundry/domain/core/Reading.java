@@ -19,9 +19,10 @@
 package org.edgexfoundry.domain.core;
 
 import java.io.Serializable;
-import org.springframework.data.mongodb.core.mapping.Document;
+
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.edgexfoundry.domain.common.BaseObject;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @SuppressWarnings("serial")
 @Document

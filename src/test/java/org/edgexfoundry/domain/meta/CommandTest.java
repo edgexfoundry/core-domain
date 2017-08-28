@@ -41,7 +41,8 @@ public class CommandTest {
   static final String TEST_PARAM1 = "Temperature";
   static final String TEST_PARAM2 = "Humidity";
 
-  private Command c, c2;
+  private Command c;
+  private Command c2;
 
   @Before
   public void setup() {
