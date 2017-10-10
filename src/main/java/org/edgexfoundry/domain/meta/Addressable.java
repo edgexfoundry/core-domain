@@ -48,6 +48,9 @@ public class Addressable extends BaseObject {
   private int port;
 
   // for callbacks
+  // Special behavior for Export Registration Addressables:
+  // if path starts with/ends with "/" pre- or append (respectively) path to topic, otherwise
+  // if path starts with/ends with "\" pre- or append (respectively) the device id to topic
   private String path;
 
   // for MQTT or other message bus addressables
