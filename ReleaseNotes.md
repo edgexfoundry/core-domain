@@ -1,17 +1,17 @@
-#v0.2 (10/20/2017)
-#Release Notes
+# v0.2 (10/20/2017)
+# Release Notes
 
-##Notable Changes
+## Notable Changes
 The Barcelona Release (v 0.2) of the Core Domain library includes the following:
 * Application of Google Style Guidelines to the code base
 * Increase in unit/intergration tests from 24 tests to 232 tests
 * POM changes for appropriate repository information for distribution/repos management, checkstyle plugins, etc.
 * Removed all references to unfinished DeviceManager work as part of Dell Fuse
 
-##Bug Fixes
+## Bug Fixes
 * None
 
-##Pull Request/Commit Details
+## Pull Request/Commit Details
  - [#10](https://github.com/edgexfoundry/core-domain/pull/10) - Remove staging plugin contributed by Jeremy Phelps ([JPWKU](https://github.com/JPWKU))
  - [#9](https://github.com/edgexfoundry/core-domain/pull/9) - Updates Path comments with Export Update contributed by Tyler Cox ([trcox](https://github.com/trcox))
  - [#8](https://github.com/edgexfoundry/core-domain/pull/8) - added staging and snapshots repos to pom along with nexus staging mav… contributed by Jim White ([jpwhitemn](https://github.com/jpwhitemn))
