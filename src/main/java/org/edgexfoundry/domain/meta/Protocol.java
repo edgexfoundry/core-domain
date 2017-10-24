@@ -24,6 +24,7 @@ package org.edgexfoundry.domain.meta;
 // TCP - for MQTT and other general TCP based communications
 // MAC - MAC address - low level (example serial) communications
 // ZMQ - Zero MQ communications
+// SSL - for TLS encrypted sockets
 public enum Protocol {
-  HTTP, TCP, MAC, ZMQ, OTHER
+  HTTP, TCP, MAC, ZMQ, OTHER, SSL
 }
