@@ -27,6 +27,7 @@
   
 	<properties>
 		<junit.version>4.11</junit.version>
+		<apache.commons.version>3.5</apache.commons.version>
 		<spring.data.mongodb.version>1.9.1.RELEASE</spring.data.mongodb.version>
 		<spring.boot.plugin.version>1.4.0.RELEASE</spring.boot.plugin.version>
 		<resteasy.version>3.0.13.Final</resteasy.version>
@@ -79,7 +80,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.5</version>
+			<version>${apache.commons.version}</version>
 		</dependency>
 	</dependencies>
 
