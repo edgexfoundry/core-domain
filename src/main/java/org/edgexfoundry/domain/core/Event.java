@@ -119,8 +119,10 @@ public class Event extends BaseObject implements Serializable {
    */
   public void markPushed(long pushed) {
     setPushed(pushed);
-    for (Reading reading : readings) {
-      reading.setPushed(pushed);
+    if (this.readings != null) {
+      for (Reading reading : readings) {
+        reading.setPushed(pushed);
+      }
     }
   }
 
