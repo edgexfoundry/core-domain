@@ -18,7 +18,6 @@
 
 package org.edgexfoundry.domain.meta;
 
-//TODO - remove locked and unlocked (lowercase) when all changes have been made
 public enum AdminState {
-  @Deprecated locked, @Deprecated unlocked, LOCKED, UNLOCKED
+  LOCKED, UNLOCKED
 }
