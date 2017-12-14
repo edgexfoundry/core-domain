@@ -18,7 +18,6 @@
 
 package org.edgexfoundry.domain.meta;
 
-// TODO - remove lowercase versions when all code has been updated
 public enum OperatingState {
-  @Deprecated enabled, @Deprecated disabled, ENABLED, DISABLED
+  ENABLED, DISABLED
 }
