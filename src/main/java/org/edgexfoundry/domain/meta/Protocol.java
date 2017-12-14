@@ -20,10 +20,11 @@ package org.edgexfoundry.domain.meta;
 
 // TODO - someday, we may need to refactor addressable based on needs of protocol. Other is a
 // placeholder today.
-// HTTP - for REST communications
+// HTTP - Can be used for REST and IP-based communications (including SNMP)
 // TCP - for MQTT and other general TCP based communications
 // MAC - MAC address - low level (example serial) communications
 // ZMQ - Zero MQ communications
+// OTHER - Used for serial communications (including Modbus RTU)
 // SSL - for TLS encrypted sockets
 public enum Protocol {
   HTTP, TCP, MAC, ZMQ, OTHER, SSL
